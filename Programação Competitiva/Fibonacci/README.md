@@ -1,6 +1,6 @@
 # Recursivo
 - A função chama ela mesma
-- Complexidade: $O(2^n)$, se você aproximar que $f(n)$ tem mesmo tamanho que $f(n-1)$
+- Complexidade: $`O(2^n)`$, se você aproximar que $`f(n)$ tem mesmo tamanho que $`f(n-1)`$
 - Chega ao caso base no mínimo F(n) vezes
 
 # Programação Dinâmica
@@ -9,7 +9,7 @@
 - Útil para os casos em que não sabemos como sair da implementação recursiva
 - Pode ser complicado usar se o array tiver que ser muito grande
 
-- Complexidade: $O(n + 2n)$, ou seja $O(n)$, pois a complexidade é igual à uma dfs em um grafo (numero de vertices (que a função é executada) + numero de transições(quantas vezes uma função chama outra))
+- Complexidade: $`O(n + 2n)`$, ou seja $O(n)$, pois a complexidade é igual à uma dfs em um grafo (numero de vertices (que a função é executada) + numero de transições(quantas vezes uma função chama outra))
 
 # Iterativa
 - Basicamente um for
