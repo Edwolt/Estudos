@@ -19,7 +19,7 @@
 
 # Matriz
 - Se eu encontrar uma matriz $`M`$, quadrada de dimensões $`m`$, para o qual o vetor $`p`$ com os proximo valor é igual a $`p = M * a`$, onde $`a`$ é o vetor com valores atuais
-- Eu posso dizer que os valores finais do vetor $`f`$ na $`nº`$ posição e $`i`$ os valores iniciais, $`f`$ é dado por $`f = M^n * i`$
+- Eu posso dizer que os valores finais do vetor $`f`$ na $`n`$-esima posição e $`i`$ os valores iniciais, $`f`$ é dado por $`f = M^n * i`$
 
 - Complexidade: $`O(m^3 \log (n))`$, que é o gasto para elevar a matriz a $`n`$
 - Formula:
