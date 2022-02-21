@@ -7,7 +7,7 @@ const int MAXN = 1e5;
 struct aresta {
     int vertice, peso;
 
-    bool operator<(const aresta &that) const {
+    bool operator<(const aresta& that) const {
         return this->peso > that.peso;
     }
 };

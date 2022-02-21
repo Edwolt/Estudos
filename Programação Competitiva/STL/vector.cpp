@@ -49,7 +49,7 @@ int main() {
     }
     cout << endl;
 
-    v.push_back(1);                         //Insere item no final: O(1)
+    v.push_back(1);                         // Insere item no final: O(1)
     v.pop_back();                           // Exclui item do final
     cout << "Back: " << v.back() << endl;   // Retorna o valor da última posição
     cout << "front: " << v.back() << endl;  // Retorna o valor da primeita posição

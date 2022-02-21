@@ -1,4 +1,4 @@
-// Crivo de Erastotenes
+// Crivo de Eratóstenes
 // O(ln(x))
 
 #include <bits/stdc++.h>

@@ -4,11 +4,11 @@ using namespace std;
 int main() {
     deque<int> dq;
 
-    // Retona valor
+    // Retorna valor
     dq.front();
     dq.back();
 
-    // insere item
+    // Insere item
     dq.push_back(1);
     dq.push_front(1);
 

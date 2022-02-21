@@ -4,10 +4,10 @@ using namespace std;
 #define ll unsigned long long
 #define TAM 2
 
-/* 
+/*
  *  | F(n)   |  =  | 1  1 | * | F(n-1) |  =  | F(n-1) + F(n-2) |
  *  | F(n-1) |     | 1  0 |   | F(n-2) |     | F(n-1)          |
- * 
+ *
  *  | F(n)   |  =  | 1  1 |^(n-2) * | 1 |
  *  | F(n-1) |     | 1  0 |         | 1 |
  */
@@ -15,7 +15,7 @@ using namespace std;
 struct Matriz {
     ll mat[TAM][TAM];
 
-    Matriz operator*(const Matriz &that) const {
+    Matriz operator*(const Matriz& that) const {
         Matriz res;
 
         for (int i = 0; i < TAM; i++) {

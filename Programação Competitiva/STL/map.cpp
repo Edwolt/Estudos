@@ -14,7 +14,7 @@ int main() {
     m.erase(10);  // Some com a chave 10 e seu valor que é 4
 
     m[1] = 5;
-    m.find(1);   // retorna m.end() se não encontrar o valor senão retorna o iterador para aquela posição
+    m.find(1);   // Retorna m.end() se não encontrar o valor senão retorna o iterador para aquela posição
     m.count(1);  // Quantas vezes a chave 1 aparece (só pode ser 0 ou 1, pois é impossível ter chaves iguais)
 
     for (auto i = m.begin(); i != m.end(); i++) {

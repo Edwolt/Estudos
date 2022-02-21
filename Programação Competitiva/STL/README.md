@@ -50,7 +50,7 @@ Associa dois valores
 
 
 # Iteradores
-Disponivel para maioria dos containers do STL\
+Disponível para maioria dos containers do STL\
 percorra assim:
 ```cpp
 for(auto i = stl.begin(); i != stl.end(); i++)

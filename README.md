@@ -8,5 +8,5 @@ Contém códigos comumente usado em maratonas de programação:
 
 # C
 Códigos comuns escritos em linguagem C
-- [Algoritimos de Ordenação](Algoritmos%20de%20Ordenação/README.md)
+- [Algoritmos de Ordenação](Algoritmos%20de%20Ordenação/README.md)
 - [Estrutura de Dados](Estrutura%20de%20Dados/README.md)

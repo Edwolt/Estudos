@@ -5,7 +5,7 @@ const int MAXN = 1e6;
 
 struct edge {
     int vertice, peso;
-    bool operator<(const edge &that) const {
+    bool operator<(const edge& that) const {
         return this->peso > that.peso;
     }
 };

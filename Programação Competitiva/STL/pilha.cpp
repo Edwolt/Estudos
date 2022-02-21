@@ -6,8 +6,8 @@ int main() {
 
     pilha.push(1);  // Coloca o valor no topo da pilha
     pilha.pop();    // Tira o valor do topo da pilha
-    pilha.top();    // Retorn valor no topo da pilha
-    pilha.empty();  //Retorn true se a pilha estiver vazia
+    pilha.top();    // Retorna valor no topo da pilha
+    pilha.empty();  // Retorna true se a pilha estiver vazia
 
     while (!pilha.empty()) {
         int n = pilha.top();

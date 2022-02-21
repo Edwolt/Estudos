@@ -1,4 +1,4 @@
-// Forma de repesentar um grafo
+// Forma de representar um grafo
 
 #include <bits/stdc++.h>
 using namespace std;

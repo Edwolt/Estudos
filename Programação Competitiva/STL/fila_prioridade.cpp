@@ -2,7 +2,7 @@
 using namespace std;
 
 struct comparar {
-    bool operator()(const int &a, const int &b) const {
+    bool operator()(const int& a, const int& b) const {
         return a > b;
     }
 };
@@ -11,14 +11,14 @@ struct Struct {
     int a;
     int b;
 
-    bool operator<(const Struct &that) const {
+    bool operator<(const Struct& that) const {
         return (this->a * this->b + this->a) > (that.a * that.b - that.a);
     }
 };
 
 int main() {
     priority_queue<int> pq;
-    pq.push(5);  // Isere elemento
+    pq.push(5);  // Insere elemento
     pq.push(10);
     pq.push(1);
 

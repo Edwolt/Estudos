@@ -6,7 +6,7 @@ void swap(int* a, int* b) {
 
 void heap_rearranja(int* vet, int n, int i) {
     int esq = 2 * i + 1;  // Filho da esquerda
-    int dir = 2 * i + 2;  // Filhor da direita
+    int dir = 2 * i + 2;  // Filho da direita
     int maior = i;
 
     // Escolhe o maior valor entr i, esq e dir
