@@ -1,5 +1,5 @@
 # Analise de Complexidade
-$10^8$ operações por segundo é uma boa aproximação para o número de operações que o c++ é capaz de fazer por segundo
+$`10^8`$ operações por segundo é uma boa aproximação para o número de operações que o c++ é capaz de fazer por segundo
 
 # Fast Cin Cout
 Torna o `cin` e o `cout` um pouco mais rápido desvinculando-os do `scanf` e `printf`\
