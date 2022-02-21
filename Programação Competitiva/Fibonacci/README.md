@@ -1,7 +1,7 @@
 # Recursivo
 - A função chama ela mesma
 - Complexidade: $`O(2^n)`$, se você aproximar que $`f(n)`$ tem mesmo tamanho que $`f(n-1)`$
-- Chega ao caso base no mínimo F(n) vezes
+- Chega ao caso base no mínimo $`f(n)`$ vezes
 
 # Programação Dinâmica
 - Diminuímos o gasto da recursão usando memorização dos estados já alcançados
