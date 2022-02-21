@@ -4,7 +4,7 @@
 - Chega ao caso base no mínimo F(n) vezes
 
 # Programação Dinâmica
-- Diminuimos o gasto da recursão usando memorização dos estados já alcançados
+- Diminuímos o gasto da recursão usando memorização dos estados já alcançados
 - É uma recursão, porém os valores que já encontramos é salvo em um array
 - Útil para os casos em que não sabemos como sair da implementação recursiva
 - Pode ser complicado usar se o array tiver que ser muito grande
@@ -13,7 +13,7 @@
 
 # Iterativa
 - Basicamente um for
-- Para fibonacci é facil fazer isso, mas isso não acontece sempre
+- Para Fibonacci é fácil fazer isso, mas isso não acontece sempre
 
 - Complexidade: $O(n)$
 

@@ -7,7 +7,7 @@
 
 ### MMC e MDC
 
-### Crivo Erastotenes
+### Crivo Eratóstenes
 - Complexidade: $O(\ln{x})$
 
 ### Verificar Primo

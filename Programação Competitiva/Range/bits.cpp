@@ -1,5 +1,5 @@
 // Não Testado
-// Range Querry e Point Update
+// Range Query e Point Update
 
 #include <bits/stdc++.h>
 using namespace std;

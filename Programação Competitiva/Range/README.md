@@ -20,8 +20,8 @@ Formas de somar e atualizar "vetores" em range
 - Um Array com posição indexada pelo valor binário no qual o primeiro bit 1 diz de quantos números aquela posição cuida
 Exemplo: 6 (110) da bits cuida de 6 e 5 do "vetor"
 - O primeiro 1 é conseguido com `i & (-1)`
-- Range_Querry e Point_Update $O(\log (n))$
-Ou Point_Querry e Range_Update $O(\log (n))$ (vetor de diferença)
+- Range_Query e Point_Update $O(\log (n))$
+Ou Point_Query e Range_Update $O(\log (n))$ (vetor de diferença)
 
 
 - Se somar com i você vai para o de baixo (cuida dos debaixo)

@@ -7,7 +7,7 @@ O compilador está criando uma função nova toda vez que usamos tipos diferente
 # Standard Template Library
 ### Vector
 - Acesso $O(1)$
-- tamanho modificavel
+- tamanho modificável
 - coloca e tira do final em $O(1)$
 
 ### Pilha
@@ -42,7 +42,7 @@ Associa dois valores
 - Tem uma chave e um valor (organiza em ordem crescente das chaves)
 - Suas funções são em $O(\log (n))$
 - A chave precisa ter `operator<` definido
-- Ótimo para questões de frequência com vetores espassos, pois vetor de frequencia de tamnho $10^{10}$ consome muita memória
+- Ótimo para questões de frequência com vetores esparsos, pois vetor de frequência de tamanho $10^{10}$ consome muita memória
 
 ### Unordered_set e Unordered_map
 - Operações são em $O(1)$
@@ -71,4 +71,4 @@ Existem também os iteradores reversos (stl.rbegin(), stl.rend()): quando increm
 
 
 # Sort
-O `sort` está disponivel para qualquer `struct` com a função `operator<` definido
+O `sort` está disponível para qualquer `struct` com a função `operator<` definido

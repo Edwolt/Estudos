@@ -1,23 +1,23 @@
-# Truqes.md
+# [Truqes](Truques.md)
 Algumas dicas
 
-# Fibonacci
-Várias implementações para encontrar o valor de uma posição na sequência de Fiboncci
+# [Fibonacci](Fibonacci/README.md)
+Várias implementações para encontrar o valor de uma posição na sequência de Fibonacci
 
 # String
-Alguns exemplos de questões envolvendo strings (como palindromo)
+Alguns exemplos de questões envolvendo strings (como palíndromo)
 
 # Recursão
 Contém alguns algoritmos que usam recursão
 
-# STL
-Explica como funciona alguns dos contâiners presente na Standad Template Library do C++ (como pilha e fila)
+# [STL](STL/README.md)
+Explica como funciona alguns dos contêineres presente na Standad Template Library do C++ (como pilha e fila)
 
-# Grafo
+# [Grafo](Grafo/README.md)
 Alguns algoritmos para representar e manipular grafos
 
-# Range
-Algoritmos para fazer rapidamente Range_Querry e Range_Update
+# [Range](Range/README.md)
+Algoritmos para fazer rapidamente Range_Query e Range_Update
 
-# Teoria dos Números
+# [Teoria dos Números](Teoria%20dos%20Numeros/README.md)
 Divisores

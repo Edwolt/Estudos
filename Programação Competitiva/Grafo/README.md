@@ -24,4 +24,4 @@
 
 - Boruvka
     - Consegue mexer com pesos negativos
-    - (Tem uma implementação muito dificil, por isso não está aqui)
+    - (Tem uma implementação muito difícil, por isso não está aqui)
