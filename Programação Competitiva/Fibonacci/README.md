@@ -48,7 +48,7 @@ F(n - 2)
 \end{bmatrix}
 =
 \begin{bmatrix}
-F(n-1)\cdot F(n-2) \\
+F(n-1) + F(n-2) \\
 F(n-1)
 \end{bmatrix}
 ```
