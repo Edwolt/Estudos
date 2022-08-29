@@ -53,16 +53,14 @@ Associa dois valores
 Disponível para maioria dos containers do STL\
 percorra assim:
 ```cpp
-for(auto i = stl.begin(); i != stl.end(); i++)
-{
+for(auto i = stl.begin(); i != stl.end(); i++) {
     *i; // Pega valor para o qual o iterador está apontando
     /* Código */
 }
 ```
 Ou assim:
 ```cpp
-for(auto i : stl)
-{
+for(auto i : stl) {
     i; // Pega valor para o qual o iterador está apontando
     /* Código */
 }
