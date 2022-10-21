@@ -30,8 +30,9 @@ void dijkstra(int pos) {
         pq.pop();
 
         // Poupa processamento
-        if (d > distancia[u])
+        if (d > distancia[u]) {
             continue;
+        }
 
         for (int i = 0; i < grafo[u].size(); i++) {
             int v = grafo[u][i].vertice;
