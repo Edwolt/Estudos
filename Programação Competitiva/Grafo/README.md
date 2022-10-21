@@ -11,7 +11,7 @@
 
 # Arestas com peso
 - Dijkstra
-    - Calcula o peso para chegar em determinado nó
+    - Calcula o peso para a partir de determinado nó chegar nos demais nós
     - Parecido com a BFS, porém usa fila de prioridade
 
 # MST (Árvore Geradora Miníma)
