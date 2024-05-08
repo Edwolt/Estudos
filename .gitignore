@@ -1,5 +1,6 @@
-*test.c
-*test.in
+# vscode
+.vscode/
+*/.vscode/
 
 ##### C #####
 *.directory
