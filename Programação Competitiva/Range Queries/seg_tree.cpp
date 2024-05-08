@@ -1,3 +1,4 @@
+// TODO fazer isso 0-index em vez de 1-index
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -8,7 +8,7 @@ const int MAXN = 1e5;
 int bits[MAXN];
 int n;
 
-// Não tem Build, cada vez que eu ler tenho que
+// Não tem Build, cada vez que eu ler tenho que dar update
 void update(int chave, int x) {
     for (int i = chave; i <= n; i += i & (-i)) {
         bits[i] += x;

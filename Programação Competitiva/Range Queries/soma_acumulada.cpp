@@ -1,3 +1,6 @@
+// Esse algoritmo é trivial
+// array[i] = soma dos elementos até i
+
 #include <bits/stdc++.h>
 using namespace std;
 
