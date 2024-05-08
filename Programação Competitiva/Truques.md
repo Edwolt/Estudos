@@ -65,11 +65,11 @@ Variaveis globais são incializadas com 0
 # Estimando Eficiência
 Tentando descobrir a complexidade da solução pelas restriçoes do input
 
-| Tamanho do Input | Complexidade de Tempo   |
-|------------------|-------------------------|
-| $`n \le 10`$     | $`O(n!)`$               |
-| $`n \le 20`$     | $`O(2^n)`$              |
-| $`n \le 500`$    | $`O(n^3)`$              |
-| $`n \le 5000`$   | $`O(n^2)`$              |
-| $`n \le 10^6`$   | $`O(n log(n)) or O(n)`$ |
-|                  | $`O(1) or O(log(n))`$   |
+| Tamanho do Input | Complexidade de Tempo       |
+|------------------|-----------------------------|
+| $`n \le 10`$     | $`O(n!)`$                   |
+| $`n \le 20`$     | $`O(2^n)`$                  |
+| $`n \le 500`$    | $`O(n^3)`$                  |
+| $`n \le 5000`$   | $`O(n^2)`$                  |
+| $`n \le 10^6`$   | $`O(n log(n))`$ or $`O(n)`$ |
+|                  | $`O(1)`$ or $`O(log(n))`$   |
