@@ -9,6 +9,7 @@ O compilador está criando uma função nova toda vez que usamos tipos diferente
 - Acesso $`O(1)`$
 - tamanho modificável
 - coloca e tira do final em $`O(1)`$
+- Em vez de vector<int>, pode usar bitset, onde cada posição tem 1 bit de memória
 
 ### Pilha
 - O último a ser empilhado é o primeiro a sair

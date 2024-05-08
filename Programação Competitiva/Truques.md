@@ -76,3 +76,40 @@ Tentando descobrir a complexidade da solução pelas restriçoes do input
 | $`n \le 5000`$   | $`O(n^2)`$                  |
 | $`n \le 10^6`$   | $`O(n log(n))`$ or $`O(n)`$ |
 |                  | $`O(1)`$ or $`O(log(n))`$   |
+
+# Iteradores
+```cpp
+sort(vec.begin(), vec.end())
+sort(array, array + n)
+
+sort(vec.begin(), vec.end(), func)
+
+// Não esqueça de sortings alternativos, como counting sort
+
+reverse(vec.begin(), vec.end())
+random_shuffle(vec.begin(), vec.end())
+```
+
+# Gerando permutações
+- Subsets:
+```cpp
+void search(int i) {
+    // i não faz parte
+    search(i+1);
+
+    // i faz parte
+    add i+1 to subset
+    search(i+1);
+    pop i+1 to subset
+}
+
+// Ou usar int para iterar sobre subsets
+```
+- Permutações:
+```cpp
+sort(vec.begin(), vec.end());
+
+do {
+// process permutation
+} while (next_permutation(vec.begin(), vec.end()));
+```
