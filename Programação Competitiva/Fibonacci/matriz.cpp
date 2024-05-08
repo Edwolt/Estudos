@@ -15,7 +15,7 @@ using namespace std;
 struct Matriz {
     ll mat[TAM][TAM];
 
-    Matriz operator*(const Matriz& that) const {
+    Matriz operator*(const Matriz &that) const {
         Matriz res;
 
         for (int i = 0; i < TAM; i++) {
@@ -43,11 +43,9 @@ struct Matriz {
 };
 
 int main() {
-    ll n;
-    cin >> n;
+    ll n = 30;
 
-    Matriz m = {{{1, 1},
-                 {1, 0}}};
+    Matriz m = {{{1, 1}, {1, 0}}};
 
     if (n <= 2) {
         cout << 1 << endl;

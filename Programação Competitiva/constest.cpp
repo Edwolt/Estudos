@@ -1,3 +1,7 @@
+/*
+Template de código
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

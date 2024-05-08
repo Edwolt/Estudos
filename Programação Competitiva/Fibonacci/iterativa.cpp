@@ -16,8 +16,6 @@ ll fibonacci(int n) {
 }
 
 int main() {
-    ll n;
-    cin >> n;
-
+    ll n = 30;
     cout << fibonacci(n) << endl;
 }

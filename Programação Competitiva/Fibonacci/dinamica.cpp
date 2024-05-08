@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll unsigned long long
+#define ll long long
 const int MAXN = 1e5;
 
 ll dp[MAXN];
@@ -19,8 +19,6 @@ int main() {
     dp[1] = 1;
     dp[2] = 1;
 
-    ll n;
-    cin >> n;
-
+    ll n = 30;
     cout << fibonacci(n) << endl;
 }
