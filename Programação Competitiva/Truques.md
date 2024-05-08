@@ -56,8 +56,11 @@ Se em qualquer parte da com acontecer um overflow O resultado já estará atrapa
 ```cpp
 #define INF 0x3f3f3f3f
 ```
-`INF` cabe em um `int` e `INF + INF` também\
+`INF` cabe em um `int` e `INF + INF` também
+
 `INF * INF` cabe em um `long`
+
+Dá para usar `memset` com `INF`
 
 # Variaveis Globais
 Variaveis globais são incializadas com 0

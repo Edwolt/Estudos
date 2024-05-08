@@ -4,9 +4,9 @@ using namespace std;
 const int MAXN = 1e6;
 
 struct edge {
-    int vertice, peso;
-    bool operator<(const edge& that) const {
-        return this->peso > that.peso;
+    int v, w;
+    bool operator<(const edge &that) const {
+        return this->w > that.w;
     }
 };
 
@@ -28,11 +28,11 @@ int prim() {
         edge e = pq.top();
         pq.pop();
 
-        if (!vis[e.vertice]) {
-            vis[e.vertice] = true;
-            total += e.peso;
+        if (!vis[e.v]) {
+            vis[e.v] = true;
+            total += e.w;
 
-            for (edge i : grafo[e.vertice]) {
+            for (edge i : grafo[e.v]) {
                 pq.push(i);
             }
         }

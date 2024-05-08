@@ -1,3 +1,6 @@
+/*
+TODO: Esse código tem problema e não roda corretamente
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -48,7 +51,7 @@ struct union_find {
 struct edge {
     int u, v, w;
 
-    bool operator<(edge& that) const {
+    bool operator<(edge &that) const {
         return this->w < that.w;
     }
 };

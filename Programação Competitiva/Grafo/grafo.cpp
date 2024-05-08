@@ -12,11 +12,18 @@ int main() {
     cin >> n >> m;
 
     for (int i = 0; i < n; i++) {
-        int u, v;
-        cin >> u >> v;
+        int u, v, w;
+        cin >> u >> v >> w;
 
-        // A maioria das vezes o problema começará no 1, então eu subtraio por 1 o u e o v
+        // A maioria das vezes o problema começará no 1,
+        // então eu faço u--, v--
         grafo[u].push_back(v);
         grafo[v].push_back(u);  // Grafo não direcionado
+    }
+
+    for (int u = 0; u < n; u++) {
+        for (int v : grafo[u]) {
+            cout << u << " -> " << v << endl;
+        }
     }
 }

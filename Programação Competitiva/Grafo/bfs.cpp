@@ -1,15 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int MAXN = 1e5;
+const int N = 1e5;
+using vi = vector<int>;
+using qi = queue<int>;
 
 int n, m;
-vector<int> grafo[MAXN];
-int distancia[MAXN];
+vi grafo[N];
 
-void bfs(int pos) {
-    memset(distancia, -1, sizeof(distancia));
-    queue<int> q;
+vi bfs(int pos) {
+    vi distancia(n, -1);
+    qi q;
     q.push(pos);
     distancia[pos] = 0;
 
@@ -24,15 +25,23 @@ void bfs(int pos) {
             }
         }
     }
+    return distancia;
 }
 
 int main() {
     cin >> n >> m;
 
     for (int i = 0; i < n; i++) {
-        int u, v;
-        cin >> u >> v;
+        int u, v, w;
+        cin >> u >> v >> w;
         grafo[u].push_back(v);
         grafo[v].push_back(u);
     }
+
+    vi distancia = bfs(0);
+    cout << "Distâncias: ";
+    for (int i : distancia) {
+        cout << i << " ";
+    }
+    cout << endl;
 }
